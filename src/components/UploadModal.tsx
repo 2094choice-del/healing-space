@@ -105,7 +105,7 @@ export default function UploadModal({ onClose, onUpload, session }: UploadModalP
             </span>
             <h3 className="font-serif text-xl md:text-2xl font-bold text-primary mt-1.5 flex items-center gap-1.5">
               <Leaf className="w-5 h-5 text-primary-light animate-pulse" />
-              당정 힐링 안식처 추천하기
+              추천하기
             </h3>
           </div>
           <button
@@ -183,7 +183,7 @@ export default function UploadModal({ onClose, onUpload, session }: UploadModalP
 
               {/* Description */}
               <div>
-                <label className="block text-xs font-bold text-primary mb-1.5">안식처 힐링 소감 및 설명 *</label>
+                <label className="block text-xs font-bold text-primary mb-1.5">소감 및 설명 *</label>
                 <textarea
                   value={description}
                   onChange={(e) => setDescription(e.target.value)}
@@ -197,7 +197,7 @@ export default function UploadModal({ onClose, onUpload, session }: UploadModalP
 
               {/* Image Drag & Drop Selector */}
               <div>
-                <label className="block text-xs font-bold text-primary mb-2">힐링 사진 업로드 혹은 엠블럼 프리셋 선택 *</label>
+                <label className="block text-xs font-bold text-primary mb-2">업로드 *</label>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {/* Drop zone area */}
                   <div
@@ -236,7 +236,7 @@ export default function UploadModal({ onClose, onUpload, session }: UploadModalP
                     ) : (
                       <>
                         <Upload className="w-7 h-7 mb-2 text-primary-light/80 animate-bounce" />
-                        <p className="text-xs font-bold text-primary">이곳에 힐링 안식처 사진 드래그</p>
+                        <p className="text-xs font-bold text-primary">화일 드래그</p>
                         <p className="text-[10px] text-bark/40 mt-1">또는 클릭하여 디바이스 이미지 선택</p>
                       </>
                     )}

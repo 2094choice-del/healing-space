@@ -525,7 +525,7 @@ export default function App() {
                 <Info className="w-5 h-5" />
               </div>
               <p className="text-xs md:text-sm text-primary-light font-bold leading-relaxed">
-                우리학교 교정, 주변 산책로 등 친구들과 선생님들이 쉽게 접근하여 힐링할 수 있는 공간을 추천하고 위치를 핀으로 고정해주세요
+                쉽게 접근할 수 있는 공간을 추천하고 위치를 핀으로 고정해주세요
               </p>
             </div>
             <button
@@ -533,7 +533,7 @@ export default function App() {
               className="w-full md:w-auto px-5 py-2.5 bg-primary hover:bg-primary-light text-cream rounded-xl text-xs font-bold whitespace-nowrap tracking-wide active:scale-95 transition-all flex items-center justify-center gap-2 shadow-md cursor-pointer shrink-0"
             >
               <PlusCircle className="w-4.5 h-4.5 text-moss-light" />
-              <span>신규등록</span>
+              <span>등록</span>
             </button>
           </div>
 
@@ -1482,7 +1482,7 @@ export default function App() {
 
                     {/* Description */}
                     <div className="space-y-1 text-left">
-                      <label className="block text-xs font-bold text-primary">안식처 힐링 소감 및 설명 *</label>
+                      <label className="block text-xs font-bold text-primary">소감 및 설명 *</label>
                       <textarea 
                         value={editDescription}
                         onChange={(e) => setEditDescription(e.target.value)}
