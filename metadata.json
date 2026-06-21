@@ -1,0 +1,6 @@
+{
+  "name": "당정중 힐링 스페이스",
+  "description": "당정중학교 학생들과 선생님들을 위한 마음의 안식처, 딥 포레스트 힐링 지도 및 감성 폴라로이드 갤러리",
+  "requestFramePermissions": ["camera", "microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
