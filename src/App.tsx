@@ -414,9 +414,9 @@ export default function App() {
                 ? 'bg-primary-light text-cream shadow-sm scale-105 border border-moss-light/30'
                 : 'text-cream/70 bg-cream/5 hover:text-cream hover:bg-cream/15 border border-transparent'
             }`}
-            title="클래식 BGM 재생/정지 전환"
+            title="BGM 재생/정지 전환"
           >
-            <span>🎼 클래식 BGM</span>
+            <span>🎼 BGM</span>
             <span className="text-[8px] px-1 py-0.5 rounded bg-cream/10 text-cream/90 flex items-center justify-center">
               {isPlaying ? '정지 ⏸️' : '재생 ▶️'}
             </span>
@@ -431,7 +431,7 @@ export default function App() {
             onPause={() => setIsPlaying(false)}
             onEnded={() => setIsPlaying(false)}
             className="h-5 w-32 filter invert brightness-150 opacity-60 hover:opacity-100 transition-opacity" 
-            title="클래식 BGM 재생"
+            title="BGM 재생"
           />
         </div>
       </div>
@@ -474,7 +474,7 @@ export default function App() {
                 onClick={() => setIsLoginOpen(true)}
                 className="px-5 py-2 hover:bg-cream-dark text-primary border border-primary/20 rounded-full font-bold tracking-wide active:scale-95 transition-all"
               >
-                멤버십 암호인증
+                인증
               </button>
             )}
           </div>
@@ -533,7 +533,7 @@ export default function App() {
               className="w-full md:w-auto px-5 py-2.5 bg-primary hover:bg-primary-light text-cream rounded-xl text-xs font-bold whitespace-nowrap tracking-wide active:scale-95 transition-all flex items-center justify-center gap-2 shadow-md cursor-pointer shrink-0"
             >
               <PlusCircle className="w-4.5 h-4.5 text-moss-light" />
-              <span>새로운 쉼터 등록하기</span>
+              <span>신규등록</span>
             </button>
           </div>
 
